@@ -1,0 +1,78 @@
+# Xcode files
+DerivedData/
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+xcuserdata/
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+*.resolved
+.swift-version
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Logs
+*.log
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+*.preview/
+
+# App Data
+*.xcuserstate
+*.moved-aside
+
+# Other generated files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+project.xcworkspace
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# CocoaPods
+Pods/
+# Podfile
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase
+GoogleService-Info.plist
+*.plist
+
+# Bundler
+.bundle/
+
+
+# Ignore user-specific settings and sensitive files
+*.xcuserdatad
+GoogleService-Info.plist
+allservices
+allservicess
