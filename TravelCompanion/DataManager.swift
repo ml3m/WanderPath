@@ -4,10 +4,8 @@ import FirebaseFirestore
 
 class DataManager {
     static let shared = DataManager()
-    
     private let db = Firestore.firestore()
     private var userId: String?
-    
     private init() { }
     
     func setUserId(_ userId: String) {
